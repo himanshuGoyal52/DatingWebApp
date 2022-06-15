@@ -1,0 +1,134 @@
+#header{
+    background-color: rgb(255, 73, 73);
+    height: 3rem;
+    padding: 0.2rem 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+#rightPart{
+    margin: 0px 3rem;
+}
+#rightPart a{
+    margin: 0px 1rem;
+    display: inline;
+    background-color: black;
+    color: white;
+}
+#left_part{
+    margin: 0px 3rem;
+    text-decoration: none;
+    color: black;
+}
+#footer{
+    background-color: black;
+    padding: 0.6rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* position: fixed; */
+    /* width: 100%; */
+    bottom: 0px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 24rem;
+    width: 26rem;
+    background-color: #E8E8E8;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.center_card{
+    height: 38rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign_in_input{
+    
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 0 1rem;
+    color: #949494;
+    border-radius: 7px;
+    height: 42px;
+    margin: 15px 0px;
+    width: 18rem;
+
+}
+.btn{
+    display: flex;
+    padding: 8px 15px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(255, 73, 73);;
+    margin: 0px 10px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(255, 34, 34);
+}
+
+
+
+.profile-pic {
+    width: 200px;
+    max-height: 200px;
+    display: inline-block;
+}
+.circle {
+    border-radius: 100% !important;
+    overflow: hidden;
+    width: 128px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.p-image {
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+  font-size: 1.2em;
+}
+
+.upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 1rem ;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #rightPart{
+        margin: 0px;
+    }
+    .btn{
+        margin : 0px 3px;
+    }
+}
